@@ -1,0 +1,31 @@
+{
+  "name": "event-driven-orders",
+  "version": "1.0.0",
+  "bin": {
+    "event-driven-orders": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.893.0",
+    "@aws-sdk/client-eventbridge": "^3.893.0",
+    "@aws-sdk/client-sfn": "^3.893.0",
+    "@aws-sdk/lib-dynamodb": "^3.893.0",
+    "aws-cdk-lib": "^2.215.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "aws-cdk": "^2.1029.2",
+    "typescript": "^5.9.2"
+  }
+}
